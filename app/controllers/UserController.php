@@ -137,4 +137,16 @@ class UserController extends Controller {
         return $no_assigned;
 	}
 
+
+	public function users_list()
+	{
+		$table = 'users';
+
+		$columns = array("username","nombre","apellido","email","status");
+
+		$Searchable = array("username","nombre","apellido","email","status");
+
+		echo TableSearch::get($table, $columns, $Searchable);
+	}
+
 }

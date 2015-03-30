@@ -47,7 +47,7 @@ function role_edit(element) {
 
 function profile() {
 
-    $.get( "user/profile", function( data ) {
+    $.get( "owner/user/profile", function( data ) {
         $('.modal-body').html(data);
         $('.modal-title').text('Actualizar perfil');
         $('.bs-modal').modal('show');

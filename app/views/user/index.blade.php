@@ -10,8 +10,7 @@ $(document).ready(function()
             {"sClass": "widthM",              "sTitle": "Nombre",        "aTargets": [1]},
             {"sClass": "widthL",              "sTitle": "Apellido",  "aTargets": [2]},
             {"sClass": "align_right widthS",  "sTitle": "Email",      "aTargets": [3]},
-            {"sClass": "align_right widthS",  "sTitle": "Tienda",    "aTargets": [4]},
-            {"sClass": "center widthS",       "sTitle": "Estado",       "aTargets": [5]},
+            {"sClass": "align_right widthS",  "sTitle": "Estado",    "aTargets": [4]},
         ],
 
         "fnDrawCallback": function( oSettings ) {
@@ -24,7 +23,7 @@ $(document).ready(function()
         "bJQueryUI": false,
         "bProcessing": true,
         "bServerSide": true,
-        "sAjaxSource": "user/datatables/users"
+        "sAjaxSource": "owner/users_list"
     });
 
 });

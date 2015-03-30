@@ -43,8 +43,6 @@ class HomeController extends \BaseController {
     {
         if (!Auth::check()) return Redirect::to('logIn');
 
-        $clientes = DB::table('clientes')->count();
-
         return View::make('layouts.master', compact('clientes'));
     }
 

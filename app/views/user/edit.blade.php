@@ -25,8 +25,6 @@
 
             {{ Form::open(array('data-remote-up','data-success' => 'Perfil Actualizado','url' => 'user/profile', 'method' =>'post', 'role'=>'form', 'class' => 'form-horizontal all')) }}
 
-            {{ Form::_select('tienda_id', Tienda::lists('nombre', 'id'),@$user->tienda_id) }}
-
             {{ Form::hidden('id', @$user->id) }}
 
             {{ Form::_text('username', @$user->username) }}

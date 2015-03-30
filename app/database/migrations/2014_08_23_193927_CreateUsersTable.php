@@ -15,7 +15,6 @@ class CreateUsersTable extends Migration {
 		Schema::create('users', function(Blueprint $table)
 		{
 			$table->increments('id');
-            $table->integer('tienda_id')->unsigned();
 	        $table->string('username', 15)->unique();
             $table->string('nombre', 100);
             $table->string('apellido', 100);
@@ -24,8 +23,6 @@ class CreateUsersTable extends Migration {
             $table->tinyInteger('status')->default(1);
             $table->string('remember_token')->nullable();
 			$table->timestamps();
-
-			$table->foreign('tienda_id')->references('id')->on('tiendas')->onDelete('restrict')->onUpdate('cascade');
 		});
 	}
 

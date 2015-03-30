@@ -41,15 +41,6 @@
                         </a>
                         <ul>
                             <li><a href="javascript:void(0);">Calendar</a></li>
-                            <li><a href="javascript:void(0);">Invoice</a></li>
-
-                            <li class="submenu">
-                                <a href="javascript:void(0);">Blog<span class="arrow"></span></a>
-                                <ul>
-                                    <li><a href="javascript:void(0);">List</a></li>
-                                    <li><a href="javascript:void(0);">Single</a></li>
-                                </ul>
-                            </li>
                             <li class="submenu">
                                 <a href="javascript:void(0);">Account <span class="arrow"></span></a>
                                 <ul>
@@ -60,34 +51,6 @@
                         </ul>
                     </li>
                     <!--/ End navigation - clientes -->
-
-                    <!-- Start navigation - forms -->
-                    <li class="submenu">
-                        <a href="javascript:void(0);">
-                            <span class="icon"><i class="fa fa-list-alt"></i></span>
-                            <span class="text">Forms</span>
-                            <span class="arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="javascript:void(0);">Element</a></li>
-                            <li><a href="javascript:void(0);">Advanced</a></li>
-                        </ul>
-                    </li>
-                    <!--/ End navigation - forms -->
-
-                    <!-- Start navigation - tables -->
-                    <li class="submenu">
-                        <a href="javascript:void(0);">
-                            <span class="icon"><i class="fa fa-table"></i></span>
-                            <span class="text">Tables</span>
-                            <span class="arrow"></span>
-                        </a>
-                        <ul>
-                            <li><a href="javascript:void(0);">Default</a></li>
-                            <li><a href="javascript:void(0);">Datatable</a></li>
-                        </ul>
-                    </li>
-                    <!--/ End navigation - tables -->
 
                     <!-- Start category development -->
                     <li class="sidebar-category">
@@ -104,106 +67,12 @@
                             <span class="plus"></span>
                         </a>
                         <ul>
-                            <li id="Inv_dt_open"><a href="javascript:void(0);">Inventario</a></li>
                             <li id="users_list"><a href="javascript:void(0);">Usuarios</a></li>
-                            <li id="proveedores"><a href="javascript:void(0);">Proveedores</a></li>
 
-                             <li class="submenu">
-                                <a href="javascript:void(0);">
-                                    <span class="text">Ventas</span>
-                                    <span class="arrow"></span>
-                                </a>
-                                <ul>
-                                    <li id="_v_dia"><a href="javascript:void(0);">Ventas por Dia</a></li>
-                                    <li id="_v_mes"><a href="javascript:void(0);">Ventas por Mes</a></li>
-                                    <li id="_v_fecha"><a href="javascript:void(0);">Ventas por Fechas</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="submenu">
-                                <a href="javascript:void(0);">
-                                    <span class="text">Compras</span>
-                                    <span class="arrow"></span>
-                                </a>
-                                <ul>
-                                    <li id="_c_dia"><a href="javascript:void(0);">Compras por Dia</a></li>
-                                    <li id="_c_mes"><a href="javascript:void(0);">Compras por Mes</a></li>
-                                    <li id="_c_fecha"><a href="javascript:void(0);">Compras por Fechas</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="submenu">
-                                <a href="javascript:void(0);">
-                                    <span class="text">Logs</span>
-                                    <span class="arrow"></span>
-                                </a>
-                                <ul>
-                                    <li id="logs_productos"><a href="javascript:void(0);">Productos</a></li>
-                                    <li id="logs_usuarios"><a href="javascript:void(0);">Usuarios</a></li>
-                                </ul>
-                            </li>
-                             
                         </ul>
                     </li>
 
-                    <li class="submenu">
-                        <a href="javascript:void(0);">
-                            <span class="icon"><i class="fa fa-tag"></i></span>
-                            <span class="text">Producto</span>
-                            <span class="plus"></span>
-                        </a>
-                        <ul>
-                            <li id="new_producto"><a href="javascript:void(0);">Nuevo Producto</a></li>
-                            <li id="new_marca"><a href="javascript:void(0);">Nueva Marca</a></li>
-                            <li id="new_categoria"><a href="javascript:void(0);">Nueva Categoria</a></li>
-                            <li id="new_sub_categoria"><a href="javascript:void(0);">Nueva Sub Categoria</a></li>
-                        </ul>
-                    </li>
                     <!--/ End development - components -->
-
-                    <!-- Start development - layouts -->
-                    <li class="submenu">
-                        <a href="javascript:void(0);">
-                            <span class="icon"><i class="fa fa-columns"></i></span>
-                            <span class="text">Operaciones</span>
-                            <span class="plus"></span>
-                        </a>
-                        <ul>
-                            <li><a href="javascript:void(0);">disponible</a></li>
-                            <li><a href="javascript:void(0);">disponible</a></li>
-                        </ul>
-                    </li>
-                    <!--/ End development - layouts -->
-
-                    <!-- Start category widget -->
-                    <li class="sidebar-category">
-                        <span>Graficos</span>
-                        <span class="pull-right"><i class="fa fa-cubes"></i></span>
-                    </li>
-
-                    <li>
-                        <a id="graph_v" href="javascript:void(0);">
-                            <span class="icon"><i class="fa fa-desktop"></i></span>
-                            <span class="text">Ventas</span>
-                            <span class="label label-primary pull-right rounded">556,378.00</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a id="graph_g" href="javascript:void(0);">
-                            <span class="icon"><i class="fa fa-group"></i></span>
-                            <span class="text">Gastos</span>
-                            <span class="label label-danger pull-right rounded">32,981.00</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a id="graph_s" href="javascript:void(0);">
-                            <span class="icon"><i class="fa fa-pencil"></i></span>
-                            <span class="text">Soporte</span>
-                            <span class="label label-info pull-right rounded">3,675.00</span>
-                        </a>
-                    </li>
 
                 </ul><!-- /.sidebar-menu -->
                 <!--/ End left navigation - menu -->

@@ -51,15 +51,7 @@
                 <li class="dropdown navbar-message">
                     <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bar-chart-o"></i></a>
                 </li>
-
-                <li class="dropdown navbar-message">
-                    <a href="javascript:void(0)" class="dropdown-toggle f_ven_op" data-toggle="dropdown"><i class="fa fa-dollar"></i></a>
-                </li>
-
-                <li class="dropdown navbar-message">
-                    <a id="f_com_op" href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-shopping-cart"></i></a>
-                </li>
-
+                
                 <li class="dropdown navbar-message hide">
 
                     <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope-o"></i><span class="count label label-danger rounded">7</span></a>

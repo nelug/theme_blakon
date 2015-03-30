@@ -25,7 +25,6 @@ class UserValidator extends ValidatorAssistant
 
     	else
     	{
-    		$this->addRule('tienda_id', 'required|integer');
     		$this->addRule('password', 'required|min:5');
     	}
     }
