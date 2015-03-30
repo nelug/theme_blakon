@@ -1,0 +1,27 @@
+.form-panel .panel-body .picker__table td, th {
+	padding: 0px !important;
+}
+
+.form-panel .panel-body .picker__table td, .form-panel .panel-body .picker__table th {
+	background: #FFF !important;
+	text-align: center !important;
+}
+
+.picker {
+    width: 245px !important;
+}
+
+.picker .picker__holder {
+    overflow: hidden;
+}
+
+.picker__day--disabled,
+.picker__day--disabled:hover,
+.picker--focused .picker__day--disabled {
+    background: #FFFFFD !important;
+    color: #ADADAD !important;
+}
+
+.picker__year {
+	font-size: 14px !important;
+}
